@@ -1,0 +1,70 @@
+body{
+    margin: 50px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-image: url(../Image/berserk-10-times-the-manga-went-too-far.avif);
+    background-size: cover;
+}
+.myCV{
+    background-color:burlywood;
+    width: 1200px;
+    height: 700px;
+    border: 2px solid black;
+    border-radius: 18px;
+    overflow: hidden;
+}
+.row{
+    height: 100%;
+}
+.infoPersonal{
+    display: flex;
+    background-color: whitesmoke;
+    height: 100%;
+    padding-top: 50px;
+    flex-direction: column;
+    align-items:center;
+    text-align: center;
+    width: 30%;
+}
+.pageDetail{
+    background-color: black;
+    height: 100%;
+    width: 70%;
+    overflow-y: scroll;
+    max-height: 100%;
+    scrollbar-width: thin;
+    color: white;
+    padding: 30px;
+}
+.pageDetail h1,h3,b{
+    color:red;
+}
+.defaultHeight{
+    height: fit-content;
+}
+.avatar{
+    border-radius: 100%;
+    border-radius: 10px solid white;
+    width: 250px;
+    height: 250px;
+}
+.iconList{
+    height: 30px;
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+i{
+    font-size: 30px;
+    color: black;
+}
+.infoFooter{
+    position: relative;
+    top:200px;
+    height: max-content;
+    display: flex;
+    justify-content: end;
+}
