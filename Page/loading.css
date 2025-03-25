@@ -1,0 +1,24 @@
+body{
+    height: 100vh; 
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+.loading>img{
+    width: 300px;
+    height: fit-content;
+    animation: jump .7s ease-in infinite;
+}
+
+@keyframes jump {
+    0%,100%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(-10px);
+    }
+    
+}
