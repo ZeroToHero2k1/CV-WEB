@@ -1,5 +1,5 @@
 body{
-    margin: 50px;
+    margin-top: 20px;
     justify-content: center;
     align-items: center;
     display: flex;
@@ -13,6 +13,7 @@ body{
     border: 2px solid black;
     border-radius: 18px;
     overflow: hidden;
+    margin-left: 200px;
 }
 .row{
     height: 100%;
@@ -36,6 +37,13 @@ body{
     scrollbar-width: thin;
     color: white;
     padding: 30px;
+}
+ul>li{
+    margin:15px 0px ;
+    font-size: 16px;
+}
+svg{
+    fill: red;
 }
 .pageDetail h1,h3,b{
     color:red;
@@ -67,4 +75,45 @@ i{
     height: max-content;
     display: flex;
     justify-content: end;
+}
+.menu{
+    display: flex;
+    width: 100px;
+    height: 500px;
+    background-color: gray;
+    border: 1px solid black;
+    border-radius:18px ;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-right: 75px;
+}
+.iconMenu{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.iconMenu>svg:hover{
+    fill:darkred
+}
+.iconMenuList{
+    height: 100%;
+}
+.codingSkillsLogo{
+    display: flex;
+    flex-wrap: wrap;
+}
+.codingSkillsLogo>svg{
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+.otherSkill{
+    display: flex;
+    flex-wrap: wrap;
+}
+.otherSkill>p{
+    color: white;
+    background-color: red;
+    width: fit-content;
+    margin-left: 1px;
+    padding: 3px;
 }
