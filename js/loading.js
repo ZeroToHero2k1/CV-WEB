@@ -1,3 +1,3 @@
 setTimeout(function(){
-    window.location="./HomePage.html";
+    window.location="./Page/HomePage.html";
 },3000)
