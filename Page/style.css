@@ -38,6 +38,7 @@ body{
     }
     #imageOfPokemon{
         width: 300px !important;
+        height:fit-content !important;  
     }
 }
 .myCV{
