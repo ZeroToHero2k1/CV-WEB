@@ -117,3 +117,7 @@ i{
     margin-left: 1px;
     padding: 3px;
 }
+#imageOfPokemon{
+    width: 500px;
+    height: fit-content;
+}
