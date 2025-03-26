@@ -1,15 +1,49 @@
 body{
-    margin-top: 20px;
+    height: 100vh;
     justify-content: center;
     align-items: center;
     display: flex;
     background-image: url(../Image/berserk-10-times-the-manga-went-too-far.avif);
     background-size: cover;
 }
+@media (max-width: 768px) {
+    .infoPersonal {
+        display: none !important;
+    }
+    body{
+        flex-wrap: wrap !important;
+        flex-direction: column !important;
+        width: 100%;
+        height: fit-content;
+        background-size:100%;
+    }
+    .pageDetail {
+        font-size: 1.5rem !important; /* Tăng kích thước font lên 1.5rem */
+        line-height: 1.8 !important; /* Thêm khoảng cách dòng để dễ đọc */
+        padding: 20px !important; /* Thêm khoảng cách bên trong */
+        width: 100% !important;
+        margin: 0 auto !important;
+    }
+    .myCV{
+        margin:0 100px 0 0 !important;
+        width: 100% !important;
+        height: auto;
+        box-shadow: none;
+    }
+    .menu{
+        width: 100% !important;
+        margin-right: 100px !important;
+        height: fit-content !important;
+        flex-direction: row !important;
+    }
+    #imageOfPokemon{
+        width: 300px !important;
+    }
+}
 .myCV{
     background-color:burlywood;
-    width: 1200px;
-    height: 700px;
+    width: fit-content;
+    height: 95%;
     border: 2px solid black;
     border-radius: 18px;
     overflow: hidden;
@@ -37,6 +71,7 @@ body{
     scrollbar-width: thin;
     color: white;
     padding: 30px;
+    font-size: 1rem;
 }
 ul>li{
     margin:15px 0px ;
