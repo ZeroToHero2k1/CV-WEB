@@ -154,6 +154,6 @@ i{
     padding: 3px;
 }
 #imageOfPokemon{
-    width: 500px;
+    width: fit-content;
     height: fit-content;
 }
