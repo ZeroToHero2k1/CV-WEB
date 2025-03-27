@@ -37,7 +37,7 @@ body{
         flex-direction: row !important;
     }
     #imageOfPokemon{
-        width: 500px !important;
+        width: 300px !important;
         height:fit-content !important;  
     }
     .mobileProfile{
