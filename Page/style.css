@@ -40,6 +40,45 @@ body{
         width: 300px !important;
         height:fit-content !important;  
     }
+    .mobileProfile{
+        display: flex !important;
+        background-color: whitesmoke;
+        height: fit-content !important;
+        flex-direction: row !important;
+        width: 100% !important;
+        font-size: 15px !important;
+        margin-right: 100px;
+
+    }
+    .titleMobile{
+        display: flex;
+        flex-direction: column;
+        align-items: left;
+        justify-content: center;
+        width: 200px;
+    }
+    .mobileProfile h2{
+        font-size: 17px;
+    }
+    .iconListMobile{
+        width:fit-content;
+        height: fit-content;
+        display: flex;
+        flex-direction: row;
+    }
+    .avatar{
+        width: 100px !important;
+        height: 100px !important;
+    }
+    .contactAndBuild{
+        display: flex !important;
+        flex-direction: column !important;
+        width: fit-content;
+    }
+    .infoFooterMobile{
+        height: fit-content;
+        width: fit-content;
+    }
 }
 .myCV{
     background-color:burlywood;
@@ -156,4 +195,11 @@ i{
 #imageOfPokemon{
     width: fit-content;
     height: fit-content;
+}
+.mobileProfile{
+    display: none;
+}
+#pokemonOutput{
+    display: flex;
+    flex-direction: row;
 }
