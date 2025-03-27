@@ -19,7 +19,7 @@ async function PokedexByPhuoc(){
         const imgOfPokemon=document.getElementById("imageOfPokemon");
         imgOfPokemon.src=pokemonOutput;
         imgOfPokemon.style.display="block";
-        imgOfPokemon.style.width="300px";
+        imgOfPokemon.style.width="500px";
         imgOfPokemon.style.height="fit-content";
         //Lấy hệ của Pokemon
         let typePoke=new Array();
