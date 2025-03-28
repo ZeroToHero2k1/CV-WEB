@@ -203,3 +203,17 @@ i{
     display: flex;
     flex-direction: row;
 }
+.suggestion{
+    width: 100%;
+    border-radius: 18px;
+}
+.suggestion-item {
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    width: 100%;
+}
+
+.suggestion-item:hover {
+    background-color: #e0e0e0;
+}
